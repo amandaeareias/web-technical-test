@@ -1,0 +1,1 @@
+export const FEED_CHANGE_OPTION = 'FEED_CHANGE_OPTION';

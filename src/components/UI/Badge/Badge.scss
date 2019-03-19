@@ -1,0 +1,13 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/globals';
+
+.badge {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: $spacing/4 $spacing/2;
+  font-weight: bold;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: darken($primary, 25%);
+  background: $primary;
+}

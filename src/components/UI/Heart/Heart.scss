@@ -1,0 +1,12 @@
+@import '../../../scss/settings/colors';
+
+.heart {
+  display: block;
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+
+  &.heart--filled {
+    fill: $secondary;
+  }
+}

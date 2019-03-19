@@ -1,0 +1,18 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/globals';
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.header__title {
+  padding: $spacing;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.375rem;
+  color: $white;
+  background: $black;
+}

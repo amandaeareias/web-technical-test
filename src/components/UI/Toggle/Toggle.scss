@@ -1,0 +1,8 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/tools/mixins';
+
+.toggle {
+  display: flex;
+  background: $white;
+  @include box-shadow();
+}

@@ -1,0 +1,35 @@
+{
+  "name": "magic",
+  "version": "1.0.0",
+  "description": "Playing with Magic The Gathering API",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "dfvalero@gmail.com",
+  "repository": "https://github.com/21Buttons/web-technical-test",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "next": "^8.0.3",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "normalize-scss": "^7.0.1",
+    "normalizr": "^3.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-freeze": "^0.1.7",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^4.1.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,5 @@
+@import '../../scss/settings/colors';
+
+@mixin box-shadow() {
+  box-shadow: 0 0.75rem 1.25rem 0 rgba($grey, 0.5);
+}
